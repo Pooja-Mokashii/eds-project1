@@ -1,4 +1,4 @@
-.contributor-card > ul {
+.contributor-card>ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@
   grid-gap: 5px;
 }
 
-.contributor-card > ul > li {
+.contributor-card>ul>li {
   margin-top: 20px;
   background-color: var(--background-color);
   display: flex;
@@ -32,14 +32,14 @@
 }
 
 
-.contributor-card > ul > li img {
+.contributor-card>ul>li img {
   width: 100%;
   height: auto;
   aspect-ratio: 1;
   object-fit: cover;
   border-radius: 50%;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
 
 .contributor-card-card-body td {
@@ -47,16 +47,12 @@
   flex-wrap: nowrap;
 }
 
-.contributor-card-card-image picture{
+.contributor-card-card-image picture {
   width: 170px;
   height: auto;
-  margin:0;
+  margin: 0;
 }
-h4{
+
+h4 {
   background-color: lightgray;
 }
-
-
-
-
-
