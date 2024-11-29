@@ -119,7 +119,7 @@ main .form button {
   main .form {
     padding: var(--spacing-ml);
   }
-  
+
   main .form .field-wrapper {
     display: flex;
   }
