@@ -1,0 +1,99 @@
+.searchform .field-wrapper {
+    display: grid;
+    grid-auto-flow: row;
+    align-items: center;
+  }
+  
+  .searchform fieldset {
+    display: grid;
+    grid-auto-flow: row;
+    margin: 0;
+    border: none;
+    padding: 0;
+  }
+  .searchform-container{
+    margin-top:20px;
+  }
+  
+  .searchform .search-box {
+    position: relative;
+    display: flex;
+    align-items:center;
+  }
+  
+  .searchform .icon-search {
+    position: absolute;
+    left: 6px; 
+    top:20%;
+    color: var(--text-color); 
+    pointer-events: none; 
+  }
+  @media (width >= 600px) {
+    .searchform fieldset {
+      grid-template-columns: repeat(2, auto);
+      gap: 0.25em 24px;
+    }
+  
+    .searchform form > .selection-wrapper + .selection-wrapper,
+    .searchform form fieldset .field-wrapper + .field-wrapper,
+    .searchform form fieldset .selection-wrapper + .selection-wrapper {
+      margin-top: 0;
+    }
+  }
+  
+  @media (width >= 900px) {
+    .searchform fieldset {
+      grid-template-columns: repeat(3, auto);
+    }
+  }
+  
+  .searchform label,
+  .searchform fieldset > legend {
+    margin-bottom: 0.25em;
+    font-size: 13px;
+    font-weight: 700;
+  }
+  
+  .searchform .selection-wrapper label {
+    margin: 0;
+    font-weight: normal;
+  }
+  
+  .searchform input {
+    box-sizing: border-box;
+    display: block;
+    width: 70%;
+    margin: 0;
+    padding: 7px 7px 7px 40px;
+    border-radius: 4px;
+    color: black;
+    font-size: var(--body-font-size-s);
+    
+  }
+  
+  @media (width >= 600px) {
+    .searchform input,
+    .searchform select,
+    .searchform textarea {
+      max-width: 50vw;
+    }
+  
+    .searchform .button {
+      max-width: max-content;
+    }
+  }
+  
+  @media (width >= 900px) {
+    .searchform input,
+    .searchform select,
+    .searchform textarea {
+      max-width: 33vw;
+    }
+  }
+  
+
+
+  
+  
+  
+ 
